@@ -1,0 +1,20 @@
+<div id="card" fxLayout="row" fxLayoutAlign="space-between">
+  <mat-card
+    id="prod"
+    class="item"
+    *ngIf="product"
+    (dblclick)="edit.emit(product)"
+  >
+    <div class="row">
+      <div class="column">
+        <h2>{{ product.name }}</h2>
+        <p>
+          {{ product.description }}
+        </p>
+      </div>
+      <div class="column">
+        <img src="{{ product.defaultImage }}" />
+      </div>
+    </div>
+  </mat-card>
+</div>

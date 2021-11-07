@@ -1,0 +1,20 @@
+body {
+  color: #eee;
+  background: #121212;
+}
+
+main {
+  padding: 10px;
+}
+
+.mainRow {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.mainColumn {
+  flex: 50%;
+}

@@ -1,0 +1,33 @@
+#mainRow {
+  color: #ffffff;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 10px;
+}
+
+#primarySpan{
+  margin-left: 15px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+
+#secondarySpan {
+  color: #474646;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 58px;
+  margin: 0 0 10px;
+}
+
+#secondaryRow {
+  background-color: #ebebeb;
+  margin: 0 0 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}

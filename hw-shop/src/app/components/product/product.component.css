@@ -1,0 +1,42 @@
+#card {
+  background-color: rgb(210, 215, 216);
+  text-align: center;
+  align-items: left;
+  margin-bottom: 10px;
+  max-height: fit-content;
+}
+
+#prod {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.mainRow {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.mainColumn {
+  flex: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+}

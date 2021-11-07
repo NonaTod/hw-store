@@ -1,0 +1,15 @@
+
+  <body>
+    <app-hardware-shop></app-hardware-shop>
+    <!-- <input type="text" placeholder="Search" id="filterTextId" (keyup)="getFilterText(document.getElementById("filterTextId").value)" >  -->
+    <div class="mainRow">
+      <div class="mainColumn">
+        <app-product *ngFor="let product of this.getProds()" [product]="product"></app-product>
+      </div>
+      <div class="mainColumn">
+        <app-cart *ngFor="let product of this.getCart()" [product]="product"></app-cart>
+      </div>
+    </div>
+        
+    <app-footer></app-footer>
+  </body>
